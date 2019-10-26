@@ -7,7 +7,7 @@ export default {
   inlineWrap: 'form-group',
   itemHeader: '',
   button: 'btn btn-primary',
-  checkBoxWrap: 'form-check',
+  checkboxWrap: 'form-check',
   radioGroupWrap: '',
   radioWrap: 'form-check',
   checkboxLabel: 'form-check-label',
