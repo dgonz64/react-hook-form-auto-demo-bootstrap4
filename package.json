@@ -1,7 +1,7 @@
 {
-  "name": "react-hooks-form-auto-demo",
+  "name": "react-hooks-form-auto-demo-bootstrap4",
   "version": "1.0.0",
-  "description": "Demo for react-hooks-form-auto",
+  "description": "Demo for react-hooks-form-auto using Bootstrap 4",
   "main": "webpack.config.js",
   "scripts": {
     "start": "webpack-dev-server --env development --mode development",
@@ -16,13 +16,14 @@
     "react",
     "hooks",
     "form",
-    "auto"
+    "auto",
+    "bootstrap4"
   ],
   "author": "David González <braben@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dgonz64/react-hook-form-auto-demo"
+    "url": "https://github.com/dgonz64/react-hook-form-auto-demo-bootstrap4"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
@@ -36,11 +37,9 @@
     "@babel/register": "^7.0.0",
     "babel-loader": "^8.0.0",
     "babili-webpack-plugin": "^0.1.2",
-    "browser-refresh": "^1.7.2",
     "clean-webpack-plugin": "^0.1.19",
-    "cpx": "^1.5.0",
-    "css-loader": "^0.28.9",
-    "cssnano": "^3.10.0",
+    "css-loader": "^3.2.0",
+    "cssnano": "^4.1.10",
     "file-loader": "^1.1.8",
     "git-revision-webpack-plugin": "^2.5.1",
     "glob": "^7.1.2",
@@ -49,9 +48,8 @@
     "mini-css-extract-plugin": "^0.4.0",
     "node-sass": "^4.12.0",
     "nodemon": "^1.15.1",
-    "optimize-css-assets-webpack-plugin": "^4.0.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
     "postcss-loader": "^2.1.0",
-    "purify-css": "^1.2.6",
     "purifycss-webpack": "^0.7.0",
     "react-hot-loader": "^3.1.3",
     "sass-loader": "^7.1.0",
@@ -60,8 +58,8 @@
     "url-loader": "^0.6.2",
     "webpack": "^4.28.3",
     "webpack-bundle-analyzer": "^3.3.2",
-    "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.14",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0",
     "webpack-merge": "^4.1.5"
   },
   "dependencies": {

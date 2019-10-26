@@ -1,6 +1,6 @@
 Demo for [react-hook-form-auto](https://github.com/dgonz64/react-hook-form-auto).
 
-# [Play](https://dgonz64.github.io/react-hook-form-auto-demo/demo)
+# [Play](https://dgonz64.github.io/react-hook-form-auto-demo-bootstrap4/demo)
 
 ## Prepare
 
@@ -10,6 +10,6 @@ Demo for [react-hook-form-auto](https://github.com/dgonz64/react-hook-form-auto)
 
     $ npm start
 
-## Things
+## I'm here just to grab the styles
 
-* True components get register while string DOM components are registered
+[There you go](https://github.com/dgonz64/react-hook-form-auto-demo-bootstrap4/blob/master/src/styles.js)
