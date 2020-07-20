@@ -1,7 +1,7 @@
 const path = require('path')
 const webpack = require('webpack')
 const glob = require('glob')
-const merge = require('webpack-merge')
+const { merge } = require('webpack-merge')
 
 const parts = require('./webpack.parts')
 
@@ -13,6 +13,8 @@ const PATHS = {
 
 const commonConfig = merge([
   {
+    target: 'web',
+    cache: false,
     entry: {
       app: PATHS.app,
     },
@@ -63,7 +65,7 @@ const productionConfig = merge([
     ],
   },
   parts.htmlPlugin(),
-  parts.clean(PATHS.build),
+  parts.clean(),
   parts.minifyJavascript(),
   parts.minifyCSS({
     options: {
