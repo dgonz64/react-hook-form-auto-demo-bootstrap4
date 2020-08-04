@@ -12,4 +12,4 @@ Demo for [react-hook-form-auto](https://github.com/dgonz64/react-hook-form-auto)
 
 ## I'm here just to grab the styles
 
-[There you go](https://github.com/dgonz64/react-hook-form-auto-demo-bootstrap4/blob/master/src/styles.js)
+[There you go](https://raw.githubusercontent.com/dgonz64/react-hook-form-auto-demo-bootstrap4/master/src/styles.js)
