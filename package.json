@@ -71,7 +71,7 @@
     "react-ace": "^9.1.1",
     "react-dom": "^16.13.1",
     "react-hook-form": "^6.0.8",
-    "react-hook-form-auto": "^1.2.1",
+    "react-hook-form-auto": "^1.0.0",
     "react-notifications": "^1.6.0"
   }
 }
